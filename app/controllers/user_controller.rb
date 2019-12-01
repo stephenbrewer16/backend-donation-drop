@@ -3,8 +3,12 @@ class UserController < ApplicationController
         
     end
 
-    def edit
+    def show
     
     end
+
+    def update
     
+    end
+
 end
