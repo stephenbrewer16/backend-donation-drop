@@ -1,6 +1,8 @@
 class DonationController < ApplicationController
     def index
-    
+        donations = Donation.all 
+
+        render json: donations
     end
 
     def create
